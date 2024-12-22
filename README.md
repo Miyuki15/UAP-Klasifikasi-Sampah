@@ -18,3 +18,14 @@ MODEL dan Dataset dapat diakses pada drive : https://drive.google.com/drive/fold
 ![image](https://github.com/user-attachments/assets/de5496ff-ae83-4d54-ba1e-dee28ba1592e)
 
 
+## overview dataset
+
+**organik**
+![output](https://github.com/user-attachments/assets/b061e13f-81ff-43a7-aef4-605274bcedf8)
+
+**Daur ulang**
+![output2](https://github.com/user-attachments/assets/a0051b81-1fd6-415e-b4a1-d2d7cd8a81ff)
+
+## Pre-Prosessing
+
+
