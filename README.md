@@ -1,11 +1,11 @@
-# UAP-Klasifikasi-Sampah
+# UAP-Prediksi Hujan
 
 
 Nama  : bintang primadata putra (202110370311431)
 
 ## Overview Project
 
-Proyek ini adalah implementasi klasifikasi sampah organaik dan sampah daur ulang, dengan menggunkan pendekatan Convolutional Neural Network (CNN) dan MobileNet V2, dengan  teknik Deep Learning ini dapat membantu mengklasifikasi sampah.
+Project ini dimaksudkan untuk user yang ingin memprediksi hujan pada besok hari, dikarenakan untuk wilayah tropis sering terkendala akan cuaca yanng tifak menentu. project ini dibekali oleh 2 model mechine learning yaitu random forest dan juga XGBosst.
 
 MODEL dan Dataset dapat diakses pada drive : https://drive.google.com/drive/folders/1l5aqcLU_xdMq9tg-MKTp8-T6neV8q28u?usp=drive_link
 
