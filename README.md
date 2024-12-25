@@ -14,6 +14,9 @@ MODEL dan Dataset dapat diakses pada drive : https://drive.google.com/drive/fold
 
 ![image](https://github.com/user-attachments/assets/935fea14-a670-4263-bf92-7f3d5e6f288a)
 
+Hyperparamter Grid Search
+![image](https://github.com/user-attachments/assets/798cef2b-4c59-499d-bd4c-4b79ef0972df)
+
 
 **XGBOOST**
 ![image](https://github.com/user-attachments/assets/bcff51de-771e-4be3-94f1-f30e415907b7)
@@ -68,4 +71,45 @@ Aplikasi web ini memprediksi kemungkinan hujan pada hari berikutnya berdasarkan 
 1. Jalankan aplikasi dengan perintah:
    ```bash
    streamlit run app.py
+
+## hasil Algoritma 
+1. Random Forest
+![image](https://github.com/user-attachments/assets/3580e672-561c-4cc2-b9d0-4faef330f878)
+
+visualisasi hasil validasi ROC ccurve :
+![ROC AUC_RF](https://github.com/user-attachments/assets/df126429-6c3d-41da-a255-61d27cd96a1a)
+
+3. XGBoost
+![image](https://github.com/user-attachments/assets/8df3e359-bcdd-4ad8-81d0-d6553cc0e32c)
+
+visualisasi hasil validasi ROC curve :
+![ROC AUC_XGB](https://github.com/user-attachments/assets/4a961db1-26df-40db-a63f-fb323a131e9c)
+
+
+## perbandingan hasil algoritma
+Akurasi:
+
+Random Forest memiliki akurasi 95.56%.
+XGBoost memiliki akurasi 93.37%.
+Dengan demikian, Random Forest memiliki akurasi yang lebih tinggi dibandingkan XGBoost.
+Precision, Recall, dan F1-Score:
+
+Untuk kelas 0.0:
+Random Forest menunjukkan precision 0.98, recall 0.94, dan F1-score 0.96.
+XGBoost menunjukkan precision 0.97959, recall 0.90029, dan F1-score 0.93827.
+Pada kelas ini, Random Forest lebih unggul dalam recall dan F1-score.
+Untuk kelas 1.0:
+Random Forest memiliki precision 0.93, recall 0.97, dan F1-score 0.95.
+XGBoost memiliki precision 0.88510, recall 0.97616, dan F1-score 0.92840.
+Pada kelas ini, XGBoost lebih unggul dalam recall, namun kalah di precision dan F1-score.
+Rata-rata (Macro dan Weighted):
+
+Random Forest memiliki rata-rata precision, recall, dan F1-score (macro dan weighted) sebesar 0.96.
+XGBoost memiliki rata-rata precision, recall, dan F1-score (macro dan weighted) sebesar 0.933 hingga 0.937.
+Secara keseluruhan, Random Forest memberikan performa yang lebih konsisten dan unggul pada rata-rata.
+ROC AUC dan Cohen's Kappa (hanya tersedia untuk XGBoost):
+XGBoost memiliki nilai ROC AUC sebesar 0.93822 dan Cohen's Kappa 0.86694, yang menunjukkan performa cukup baik untuk mengklasifikasi kedua kelas.
+
+Kesimpulan: Random Forest unggul dalam hal akurasi, precision, recall, dan F1-score dibandingkan XGBoost, meskipun XGBoost tetap memiliki performa yang baik berdasarkan ROC AUC dan Cohen's Kappa.
+
 
