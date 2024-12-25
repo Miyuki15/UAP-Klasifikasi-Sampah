@@ -19,7 +19,6 @@ MODEL dan Dataset dapat diakses pada drive : https://drive.google.com/drive/fold
 ![image](https://github.com/user-attachments/assets/bcff51de-771e-4be3-94f1-f30e415907b7)
 
 
-
 ## overview dataset
 
 **heatmap**
