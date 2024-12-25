@@ -7,15 +7,15 @@ Nama  : bintang primadata putra (202110370311431)
 
 Project ini dimaksudkan untuk user yang ingin memprediksi hujan pada besok hari, dikarenakan untuk wilayah tropis sering terkendala akan cuaca yanng tifak menentu. project ini dibekali oleh 2 model mechine learning yaitu random forest dan juga XGBosst.
 
+diakrenakan file H5 dari masing-masing terlalu besar maka bisa mengaksespada GDrive
 MODEL dan Dataset dapat diakses pada drive : https://drive.google.com/drive/folders/1l5aqcLU_xdMq9tg-MKTp8-T6neV8q28u?usp=drive_link
-
 
 **RANDOM FOREST**
 
 ![image](https://github.com/user-attachments/assets/935fea14-a670-4263-bf92-7f3d5e6f288a)
 
 
-**CGBOOST**
+**XGBOOST**
 ![image](https://github.com/user-attachments/assets/bcff51de-771e-4be3-94f1-f30e415907b7)
 
 
